@@ -8,6 +8,8 @@ function BoardPage() {
   const pokeState = useContext(pokeStateContext);
   const setPokeState = useContext(setPokeStateContext);
 
+  console.log(pokeState);
+
   return (
     <div
       className={css`
