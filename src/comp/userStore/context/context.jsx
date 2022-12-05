@@ -8,6 +8,7 @@ function Context(props) {
     pokelist: [],
     specialList: [],
     PokeBoardStatus: [],
+    isFirstRender: false,
   });
 
   return (
